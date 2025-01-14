@@ -1,0 +1,24 @@
+/* body{
+    background-color: fuchsia;
+} */
+/* Universal Selector */
+/* *{
+    background-color: azure;
+    color: brown;
+} */
+ /* Group */
+/* h1,h2,p{
+    color: magenta;
+} */
+ /* Select by attribute */
+/* h4[draggable="true"]{
+    background-color: firebrick;
+} */
+ /* Select by descendant */
+ /* div p{
+    background-color: lightcyan;
+ } */
+  /* Select by children */
+ section>p{
+    background-color: palevioletred;
+ } 

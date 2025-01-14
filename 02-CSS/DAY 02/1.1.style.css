@@ -1,0 +1,16 @@
+/* h1{
+    color: rgb(157, 230, 12);
+} */
+/* h3{
+    color:#ff5733;
+} */
+ /* h1{
+    color: hsl(40, 80%, 30%);
+ } */
+  /* h3{
+    color: rgba(78,78,78,0.97);
+  } */
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4em;
+}

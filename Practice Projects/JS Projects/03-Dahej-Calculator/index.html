@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>"Dahej Calculator"</h1>
+            <div class="personal">
+                <h2>Personal & Family Details</h2>
+                <label for="age">Age:</label>
+                <input type="number" id="age" placeholder="Enter your Age"><br>
+                <label for="education">Education Level: </label>
+                <select name="edu" id="education">
+                    <option value="" class="edu" disabled selected>Select</option>
+                    <option value="Primary School" class="edu">Primary School</option>
+                    <option value="Middle School" class="edu">Middle School</option>
+                    <option value="High School" class="edu">High School</option>
+                    <option value="Graduate" class="edu">Graduate</option>
+                    <option value="Post Graduate" class="edu">Post Graduate</option>
+                    <option value="Doctorate" class="edu">Doctorate</option>
+                </select><br>
+                <label for="">Profession: </label>
+                <select name="pro" id="pro">
+                    <option value="" disabled selected>Select</option>
+                    <option value="">Healthcare</option>
+                    <option value="">Education</option>
+                    <option value="">Technology & IT</option>
+                    <option value="">Business & Finance</option>
+                    <option value="">Creative & Media</option>
+                    <option value="">Engineering</option>
+                    <option value="">Construction</option>
+                    <option value="">Law</option>
+                    <option value="">Public Services</option>
+                    <option value="">Science & Research</option>
+                    <option value="">Transportation & Logistics</option>
+                    <option value="">Other</option>
+                </select><br>
+                <label for="salary">Salary Per Month: </label>
+                <input type="number" placeholder="INR" id="salary"><br>
+                <label for="">Family Wealth: </label>
+                <input type="number" placeholder="INR" id="family"><br>
+                <label for="">Number Of Siblings: </label>
+                <select name="siblings" id="siblings">
+                    <option value="Select" disabled selected>Select</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br>
+                <label for="">Parent's Occupation: </label>
+                <select name="occupation" id="occupation">
+                    <option value="Select" disabled selected>Select</option>
+                    <option value="">Healthcare</option>
+                    <option value="">Education</option>
+                    <option value="">Technology & IT</option>
+                    <option value="">Business & Finance</option>
+                    <option value="">Creative & Media</option>
+                    <option value="">Engineering</option>
+                    <option value="">Construction</option>
+                    <option value="">Law</option>
+                    <option value="">Public Services</option>
+                    <option value="">Science & Research</option>
+                    <option value="">Transportation & Logistics</option>
+                    <option value="">Other</option>
+                </select>
+            </div>
+            <div class="personal personality">
+                <h2>Personality & Skills</h2>
+                <label for="">How do you rate your looks?:-</label><br><br>
+                <input type="range" class="range"><br>
+                <label for="cooking">Cooking Skills:</label>
+                <select name="" id="cooking">
+                    <option value="Select" disabled selected>Select</option>
+                    <option value="Beginner">Beginner</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Advanced">Advanced</option>
+                </select><br>
+                <label for="">Humour Level:</label>
+                <select name="" id="humour">
+                    <option value="Select" disabled selected>Select</option>
+                    <option value="Beginner">Beginner</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Advanced">Advanced</option>
+                </select><br>
+                <label for="">Household Skills: </label><br><br>
+                <input type="checkbox" class="checkbox">
+                <label for="">Cleaning</label><br>
+                <input type="checkbox" name="" id="" class="checkbox">
+                <label for="">Gardening</label><br>
+                <input type="checkbox" class="checkbox">
+                <label for="">Babysitting</label>
+            </div>
+            <div class="personal bonus">
+                <h2>Bonus Or Penalties</h2>
+                <input type="checkbox" name="" id="" class="bonus1 checkbox">
+                <label for="">Owning A Luxury Car [+100k]</label><br>
+                <input type="checkbox" name="" id="" class="bonus1 checkbox">
+                <label for="">Having A Pet [+50k]</label><br>
+                <input type="checkbox" name="" id="" class="bonus1 checkbox">
+                <label for="">Living In Tier 1 City [+100k]</label><br>
+                <input type="checkbox" name="" id="" class="bonus1 checkbox">
+                <label for="">Tattos [-100k]</label><br>
+                <input type="checkbox" name="" id="" class="bonus1 checkbox">
+                <label for="">Marrying For Love [++Respect]</label>
+            </div>
+            <button id="btn-submit" class="btn-submit">Submit</button>
+            <div class="personal">
+                <h2>Result</h2>
+                <div class="result">
+                    <p class="final" id="final">Please submit the form above to view the result.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h3>Made with ❤️ by Shriyash Patil.</h3>
+        <p>Want to Contact Me?<a href="mailto:shriyashpatil24.work@gmail.com" class="mail">📩 Click To Mail Me</a><a href="https://www.linkedin.com/in/patilshriyash/" class="linkedin">🏹My LinkedIn</a></p>
+        <p>All Rights Reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

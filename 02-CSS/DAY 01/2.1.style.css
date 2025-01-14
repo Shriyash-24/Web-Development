@@ -1,0 +1,19 @@
+h1{
+    color: darkturquoise;
+    background-color: blueviolet;
+}
+ul{
+    color: mediumaquamarine;
+    background-color: lightsalmon;
+}
+/* Select by Class Name ( Apply dot name */
+.first{
+    background-color: maroon;
+}
+.second{
+    background-color: violet;
+}
+/* Select by id - Unique and used by #. */
+#third{
+    background-color: mediumspringgreen;
+}

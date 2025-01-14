@@ -1,0 +1,33 @@
+body {
+    font-family: 'sans-serif';
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(248, 225, 255);
+    text-align: center;
+    padding: 1.3rem 2.5rem;
+    border: 3px solid black;
+    border-radius: 0.7rem;
+}
+
+.heading {
+    position: relative;
+    bottom: 3vh;
+}
+
+.quote-box {
+    background-color: aquamarine;
+    padding: 1rem;
+    border-left: 3px solid blue;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    
+}

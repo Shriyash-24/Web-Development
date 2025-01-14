@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    background-color: wheat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1, .box2{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    font-size: 4rem;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+.box1:hover{
+    /* transform: translate(200px,-100px); */
+    /* transform: rotate(45deg) */
+    /* transform: skew(40deg); */
+    /* transform: translate(100px,20px) scale(2) rotate(10deg); */
+    transform: rotate(45deg);
+    transform-origin: bottom right;
+}
+.box2:hover{
+    /* transform: translate(200px,-100px); */
+    /* transform: rotate(45deg) */
+    /* transform: skew(40deg); */
+    /* transform: translate(100px,20px) scale(2) rotate(10deg); */
+    transform: rotate(45deg);
+}

@@ -1,0 +1,37 @@
+/* h1{
+    background-color: aqua;
+    color: aquamarine;
+    text-align: justify;
+} */
+
+/* Explaination of text align with block and inline */
+/* .container{
+    text-align: center;
+}
+h1{
+    background-color: blueviolet;
+}
+p{
+    background-color: brown;
+}
+button{
+    background-color: red;
+} */
+
+/* p{
+    background-color: orange;
+    direction: ;
+} */
+ /* h1{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+ } */
+h1{
+    /* text-transform: capitalize;
+     */
+}
+p{
+    text-indent: 50px;
+    letter-spacing: 1px;
+    /* text-shadow: 2px 2px; */
+}

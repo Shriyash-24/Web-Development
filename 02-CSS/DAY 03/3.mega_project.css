@@ -1,0 +1,46 @@
+/* Global Styles */
+body{
+    font-family: 'Verdana', 'sans-serif';
+    color: #333;
+    background-color: #f0f0f0;
+}
+/* Header Style */
+header{
+    background-color: #4CAF50;
+    color: white;
+}
+/* Heading Style */
+h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.5em;
+    color: #FFD700;
+}
+/* Article Style */
+article{
+    background-color: white;
+}
+.CSS_Article h3{
+    font-size: larger;
+    color: forestgreen;
+}
+/* List Style */
+h4{
+    color: #FF69B4;
+    font-size: 1.5em;
+}
+/* Table Style */
+table{
+    background-color: #F9F9F9;
+}
+table > th{
+    background-color: #007bff;
+    color: white;
+}
+/* Footer Style */
+footer{
+    color: #333;
+    background-color: #ccc;
+}

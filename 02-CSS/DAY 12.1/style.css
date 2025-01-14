@@ -1,0 +1,138 @@
+.first{
+    display: flex;
+
+}
+.logo_image{
+    height: 100px;
+    padding-left: 7rem;
+}
+.searching{
+    margin-top: 2rem;
+    margin-left: 1.9rem;
+    width: 500px;
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 15rem;
+    border: none;
+}
+.dropdown_1{
+    margin-top: 2rem;
+    height: 25px;
+    border: none;
+}
+.end > button{
+    background-color: rgb(215,46,46);
+    color: white;
+    margin-left: 1.9rem;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+    position: relative;
+    bottom: 9px;
+}
+.hamburger{
+    height: 25px;
+    margin-left: 1.9rem;
+    padding-right: 7rem;
+    margin-top: 1.9rem;
+}
+.second{
+    display: flex;
+    background-color: rgb(194, 193, 193);
+    padding: 15px;
+}
+.movie{
+    margin-left: 100px;
+}
+.listyour{
+    margin-left: 475px;
+}
+.left > button{
+    font-size: 15px;
+    border: none;
+    background-color: rgb(194, 193, 193);
+}
+.right > button{
+    font-size: 15px;
+    border: none;
+    background-color: rgb(194, 193, 193);
+}
+main{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.movies{
+    display: flex;
+    overflow-x: scroll;
+}
+.card{
+    margin-right: 20px;
+}
+.img{
+    border-radius: 20px;
+    height: 400px;
+}
+.card > h3{
+    color: rgb(65, 64, 64);
+    position: relative;
+    bottom: 10px;
+}
+.card > h2{
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 80;
+    font-style: normal;
+}
+#mau{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.banner{
+    margin-top: 20px;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#live_events{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.live1{
+    display: flex;
+    overflow-x: scroll;
+}
+.img_live{
+    margin-right: 30px;
+    border-radius: 10px;
+    height: 250px;
+}
+.contact > h3{
+    padding-top: 10px;
+    font-size: 25px;
+    color: white;
+    margin-left: 80px;
+    margin-right: 22px;
+}
+footer{
+    margin-top: 50px;
+    background-color: gray;
+    display: flex;
+    align-items: baseline;
+}
+.statement > p{
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+}
+.today > button{
+    background-color: rgb(215,46,46);
+    color: white;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    margin-left: 250px;
+}

@@ -1,0 +1,19 @@
+.a,.c{
+    display: inline-block;
+    background-color: white;
+    height: 35vh;
+    width: 20vw;
+    margin-right: 17vw;
+}
+*{
+    background-color: blue;
+}
+.b,.d{
+    display: inline-block;
+    background-color: white;
+    height: 35vh;
+    width: 60vw;
+}
+.c,.d{
+    margin-top: 30vh;
+}

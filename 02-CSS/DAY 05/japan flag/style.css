@@ -1,0 +1,9 @@
+.circle{
+    background-color: red;
+    height: 60vh;
+    width: 60vh;
+    border-radius: 50%;
+    margin: auto;
+    /* margin: auto; horizontally chejo ko center karna */
+    margin-top: 20vh;
+}

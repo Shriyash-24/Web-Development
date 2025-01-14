@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    height: 100%;
+    background-color: dimgray;
+    padding: 4rem;
+    display: grid;
+    gap: 1rem;
+    /* grid-template-columns: repeat(4,1fr); */
+    /* grid-template-columns: minmax(100px,200px) minmax(100px,200px) minmax(100px,200px) minmax(100px,200px); */
+    /* grid-template-columns: repeat(auto-fit,minmax(100px,200px)); */
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    place-items: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    font-size: 3rem;
+    color: black;
+}
+.Box2{
+    justify-self: end;
+}

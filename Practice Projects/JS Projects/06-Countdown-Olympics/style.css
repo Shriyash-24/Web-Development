@@ -1,0 +1,55 @@
+body {
+    background-color: deeppink;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.framework {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.framework h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.framework h2 {
+    margin-bottom: 0.5rem;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    width: 100%;
+}
+
+.day, .hour, .minute, .second {
+    margin-right: 3rem;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.days, .hours, .minutes, .seconds {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px){
+    .main {
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+}

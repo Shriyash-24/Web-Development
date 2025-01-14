@@ -1,0 +1,22 @@
+.first{
+    background-color: orange;
+    height: 200px;
+    width: 150px;
+    margin: 23px;
+    /* display: inline; */
+}
+.second{
+    background-color: aquamarine;
+    height: 100px;
+    width: 122px;
+    margin: 40px;
+}
+span{
+    /* display: block; */
+    display: inline-block;
+    background-color: greenyellow;
+    height: 33px;
+    width: 80px;
+    margin: 5px;
+    padding: 5px;
+}

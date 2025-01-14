@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+}
+.Box{
+    display: inline-block;
+}
+body{
+    background-color: rgb(255, 247, 247);
+}
+.card{
+    margin-top: 150px;
+    margin-left: 100px;
+    display: inline-block;
+    cursor: pointer;
+    border: 10px solid rgb(255, 247, 247);
+    border-radius: 20px;
+}
+.img1{
+    height: 250px;
+    width: auto;
+    border-radius: 15px;
+}
+.restaurant{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.restaurant_name{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(28,28,28);
+}
+.rating{
+    position: absolute;
+    right: 5px;
+    background-color: #267E3E;
+    color: white;
+    font-weight: 600;
+    padding: 4px;
+    border-radius: 8px;
+}
+.food{
+    position: relative;
+    margin-bottom: 10px;
+}
+.food_name{
+    color: rgb(105,105,105);
+}
+.price{
+    position: absolute;
+    right: 5px;
+    color: rgb(105,105,105);
+}
+.address{
+    position: relative;
+}
+.address_name{
+    color: rgb(156,156,156);
+}
+.distance{
+    position: absolute;
+    right: 5px;
+    font-weight: 500;
+    color: rgb(54,54,54);
+}
+.card:hover{
+    background-color: white;
+    box-shadow: 0 0 0 2px gray; /* Thin "border" effect with a 2px shadow */
+    border-color: white;
+}
+/* header */
+.first{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.zomato{
+    height: 35px;
+    margin-right: 65px;
+}
+.searching{
+    width: 380px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 7px;
+    height: 30px;
+}
+.sign{
+    height: 50px;
+    width: 70px;
+    position: relative;
+    font-size: 15px;
+    margin-right: 50px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.head{
+    background-color: white;
+    
+}
+.page_location{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.img3{
+    height: 50px;
+    width: auto;
+    border-radius: 20px;
+}
+.dine{
+    position: relative;
+    bottom: 15px;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+    font-style: italic;
+}
+.delivery{
+    margin-left: 50px;
+    margin-right: 90px;
+}
+.second{
+    margin-top: 100px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.dining{
+    margin-left: 80px;
+}
+.banner{
+    height: 300px;
+    width: auto;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.main_heading{
+    margin-top: 80px;
+    margin-left: 99px;
+}
+.b{
+    margin-top: 100px;
+    margin-left: 20px;
+    background-color: white;
+    height: 40px;
+    border-radius: 10px;
+    
+    border-color: aqua;
+    cursor: pointer;
+}
+.filter{
+    margin-left: 110px;
+}
+.third{
+    background-color: rgb(241, 241, 241);
+    padding-left: 80px;
+}
+.collections{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.intro{
+    margin-bottom: 20px;
+}
+.collection_pic1{
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
+.collection_title{
+    color: white;
+    position: relative;
+    bottom: 60px;
+    margin-left: 10px;
+}
+.collectionplace{
+    position: relative;
+    bottom: 50px;
+    color: white;
+    margin-left: 10px;
+
+}

@@ -1,0 +1,24 @@
+.card{
+    background-color: aquamarine;
+    border: 5px green solid;
+    padding: 10px;
+    margin: 20px;
+    height: 17vw;
+    width: 30vw;
+    margin: 20px 20px 20px 35vw;
+}
+
+h2{
+    color: rgb(173, 23, 23);
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+.card:hover h3{
+        color: chocolate;
+}
+.card:hover{
+    background-color: orange;
+}

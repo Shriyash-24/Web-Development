@@ -1,0 +1,124 @@
+/* To make content in single line */
+.Box{
+    display: inline-block;
+}
+/* Make card inline block */
+.card{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 10px solid rgb(253,243,243);
+    border-radius: 20px;
+}
+/* eliminate by default margins */
+*{
+    margin: 0;
+}
+/* set height and width of image and set border radius */
+.img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+}
+/* Making restaurant name bolder and nice */
+.Restaurant_name{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* add color and flair to rating */
+.rating{
+    background-color: lawngreen;
+    height: 20px;
+    padding: 2.5px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    right: 5px;
+}
+/* I applied position absolute to rating so i will need to use position relative on my parent */
+.Restaurant,.food,.location{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.price,.distance{
+    position: absolute;
+    right: 5px;
+}
+.food_name,.Place{
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+}
+.distance{
+    font-weight: bold;
+    font-size: 15px;
+}
+body{
+    background-color: rgb(255,243,243);
+}
+.card:hover{
+    background-color: white;
+    border-color: white;
+}
+.off{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(19, 32, 204, 0.4);
+    bottom: 10px;
+    left: 5px;
+    
+}
+.image{
+    position: relative;
+}
+.first,.second{
+    margin-left: 200px;
+}
+.brand{
+    color: red;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.searching{
+    width: 300px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 13px;
+    height: 30px;
+}
+button{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+    margin-right: 50px;
+    border: none;
+    background-color: white;
+}
+.head{
+    background-color: white;
+}
+.img3{
+    height: 70px;
+    width: 70px;
+}
+.dine,.delivery,.Nighting{
+    position: relative;
+    bottom: 22px;
+    left: 5px;
+    font-size: 20px;
+    color: grey;
+}
+.delivery{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.second{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
