@@ -38,3 +38,4 @@ Eg - C,C++,Erlang, Haskell, Rust, Go.
 Interpreted Language --> Interpreters run through a program line by line and execute each command. Interpreted languages were once significantly slower than compiled languages. But, with the development of just-in-time compilation, that gap is shrinking.
 Eg - PHP, Ruby, Python, JavaScript
 JIT: Just In Time --> JIT compilation attempts to use the benefits of both. While the interpreted program is being run, the JIT compiler determines the most frequently used code and compiles it to machine code.
+*/
