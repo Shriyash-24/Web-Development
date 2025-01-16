@@ -34,10 +34,14 @@ function RandomQuestion(){
 // Select the form and insert all the elements.
 const form = document.querySelector('form');
 
+const original_answer = {};
+
 const problem = RandomQuestion();
 problem.forEach((obj, index)=>{
     const div_element = document.createElement('div');
     div_element.className = 'question';
+
+    original_answer[`q${index+1}`] = obj['answer'];
     const para = document.createElement('p');
     para.textContent = `${index+1}.${obj['question']}`;
     div_element.appendChild(para);
@@ -56,5 +60,30 @@ problem.forEach((obj, index)=>{
         div_element.appendChild(document.createElement('br'));
     })
 
+    form.appendChild(div_element);
+
+})
+
+const button = document.createElement('button');
+button.type = 'submit';
+button.className = 'submit-btn';
+button.textContent = "Submit";
+form.appendChild(button);
+
+// Form Checking
+
+form.addEventListener('submit',(event)=>{
+    event.preventDefault();
+    const data = new FormData(form);
+
+    let result = 0;
+    for(let [key,value] of data.entries()){
+        if(value === original_answer[key]){
+            result++;
+        }
+    }
+
+    const out = document.getElementById('out');
+    out.innerText = `${result} out of 5 are correct!`;
 })
 
